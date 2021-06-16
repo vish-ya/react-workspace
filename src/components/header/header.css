@@ -1,0 +1,37 @@
+.header {
+    text-align: center;
+    background: rgb(162, 154, 177); 
+    width: 100%;
+    height: 300px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position:relative;
+    overflow: hidden;
+  }
+  .header img {
+    width: 1000px;
+    height: 100px;
+  }
+ 
+  #header-button{
+    background-color : #5499C7 ;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  
+  }
+  @media screen and (max-width: 500px) {
+    .header button {
+      float: none;
+      display: block;
+    }
+    .header-right {
+      float: none;
+    }
+  }

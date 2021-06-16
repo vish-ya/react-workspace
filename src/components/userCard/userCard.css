@@ -1,0 +1,116 @@
+.body{
+    margin-top:5px;
+    background: rgb(217, 216, 219); 
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    
+    background-size: 100% 100%;
+}
+img{
+    height: 100px;
+    width:100px;
+    padding:5px;
+}
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  img:hover {
+    box-shadow: 0 0 2px 2px #BABCBF;
+  }
+.row{
+    width: 30%;
+    margin:0 auto;
+    /* margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%; */
+
+    padding: 10px;
+    background-color: #D3D6D8;
+}
+  .column {
+    float: left;
+    width:100px;
+    height: 140px;
+    /* width: 33.33%; */
+    padding: 2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .containerTab{
+      flex:100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* ************************************************************************* */
+  #unit{
+	background: rgb(217, 216, 219); 
+	
+	font-size: 20px;
+
+}
+
+  .containerTab {
+    /* display: block; */
+	/* color:#D6DBDF; */
+	overflow-x:auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 3px solid grey;
+    background:#E5E8E8 ;
+  }
+
+   p,h1,h2{
+	  color:#5D6D7E;
+	  padding-left: 20px;
+	 
+  } 
+  #infoTable{
+	  color:#5D6D7E;
+  }
+  td{
+	  width: 120px;
+      padding-right: 2px;
+
+  }
+  .rt{
+      width: 100%;
+  }
+  #userImage{
+	  top:50px;
+	  float: left;
+	  
+  }
+ 
+  #image{
+	  width:180px;
+	  height: 250px;
+	  padding-right: 10px;
+  }
